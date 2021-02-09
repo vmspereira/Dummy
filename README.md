@@ -178,7 +178,6 @@ python =
     3.8: py38
 
 [testenv]
-passenv = CI TRAVIS TRAVIS_*
 setenv =
         PYTHONPATH = {toxinidir}
 

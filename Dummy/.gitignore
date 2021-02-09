@@ -1,0 +1,13 @@
+vscode/
+__pycache__
+docs/build/
+build/
+dist
+*.log
+.tox
+.eggs
+*.egg-info
+.coverage
+.pytest_cache
+htmlcov
+coverage.xml

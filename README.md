@@ -7,11 +7,10 @@ A great way to test your code on several Python versions is to use the [Travis C
 
 To use [Travis](https://travis-ci.org) simply follow these three steps:
 
-1. Sign up to Travis with GitHub, allowing Travis some access to you projects.
+1. Sign up to Travis with GitHub, allowing Travis some access to you projects. You may use travis-ci.com instead of travis-ci.org.
 2. Enable Travis for the repository you want to test in [your repositories page](https://travis-ci.org/account/repositories).
 3. Place a `.travis.yml` file in the root of your repository; this file will tell Travis how this specific project should be built and tested.
 
-You may use travis-ci.com instead of travis-ci.org.
 
 Lets begin with a simple example:
 

@@ -1,3 +1,4 @@
+import pytest
 import unittest
 
 
@@ -11,9 +12,20 @@ class TestUniprot(unittest.TestCase):
         """
         self.protein = 'P15993'
 
+    @pytest.mark.webtest
     def test_retreive_uniprot(self):
         """Tests essential reactions
         """
         from dummy.util.uniprot import retreive
         r = retreive(self.protein, format='dict')
         self.assertEqual(len(r.keys()), 3)
+
+
+class ClassTest(unittest.TestCase):
+
+    @pytest.mark.xfail
+    def test_feature_a(self):
+        self.assertEqual(2, 3)
+
+     def test_feature_b(self):
+        self.assertTrue(True)

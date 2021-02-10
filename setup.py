@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup, find_packages
-from src.dummy import __version__
+
 
 requirements = ['xmlschema']
 
@@ -12,7 +12,7 @@ test_requirements = [
 
 setup(
     name='dummy',
-    version=__version__,
+    version=0.0.1,
     description="Dummy package",
     author="BiSBII CEB University of Minho",
     author_email='vpereira@ceb.uminho.pt',

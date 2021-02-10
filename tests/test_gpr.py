@@ -12,7 +12,7 @@ class TestGPR(unittest.TestCase):
         self.protein = 'P15993'
 
     def test_gpr(self):
-        """Tests gpr
+        """Tests   gpr
         """
         from dummy.util.parsing import Boolean, build_tree, BooleanEvaluator
         expression = "( (Lrp AND NOT (leu_L_e_>0)) OR NOT(((GlnG AND GlnB AND GlnD) AND RpoN) AND ((glu_L_e_>0) OR \

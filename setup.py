@@ -11,7 +11,7 @@ test_requirements = [
 
 setup(
     name='dummy',
-    version='0.0.2',
+    version='0.0.3',
     description="Dummy package",
     author="BiSBII CEB University of Minho",
     author_email='vpereira@ceb.uminho.pt',
